@@ -1,5 +1,7 @@
 # MBTA Outbount Commuter Rail Info Board
 
+DEMO: https://mbta-commuter-infoboard.herokuapp.com/
+
 A rudementary info board that tracks outbound trains from Boston North and South stations.
 
 Tested with Node v14.17.6. 
