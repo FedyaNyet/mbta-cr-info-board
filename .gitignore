@@ -1,0 +1,3 @@
+node_modules/
+.identifier
+src/react-app-env.d.ts

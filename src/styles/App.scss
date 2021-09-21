@@ -1,0 +1,55 @@
+
+body{
+  background-color: black;
+  color:yellow;
+  font-family: monospace;
+  text-transform: uppercase;
+}
+
+.title{
+  font-size: 2rem;
+  display: flex;
+  text-align: center;
+  &>*{
+    flex:2;
+  }
+}
+
+.datetime{
+  flex:1;
+  padding: 10px 40px;
+  text-transform: none;
+  &:first-child{
+    text-align: left;
+  }
+  &:last-child{
+    text-align: right;
+  }
+}
+
+h2{
+  color: white;
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+
+.departure{
+  display:flex;
+  font-size: 1.5rem;
+  div{
+    margin: 10px 40px;
+  }
+  &>div{
+    flex:1;
+  }
+  &>div:nth-child(2){
+    flex:2;
+  }
+}
+
+.header {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+  font-family: sans-serif;
+}
